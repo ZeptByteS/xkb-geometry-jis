@@ -4,6 +4,18 @@ Ubuntu Gnome 16.04上で作成した設定ファイルです. 日本でよく使
 この設定ファイルを使用するには, ファイルをコピーし,```/etc/default/keyboard``` に下記の ```XKBMODEL=model-name``` を追加し,再起動します.
 
 
+Configuration files that created on Ubuntu Gnome 16.04. Because I could not find the geometry file for JIS keyboards which is commonly used in Japan, I made it myself.
+
+To use this configuration file, copy files, add ```XKBMODEL=model-name``` to ```/etc/default/keyboard``` and reboot.
+
+Example:
+
+例:
+
+    BACKSPACE=guess
+    XKBLAYOUT=us
+    XKBVARIANT=dvorak
+    XKBMODEL=jis91_numlk
 
 ---
 ### XKBMODEL=jis108
