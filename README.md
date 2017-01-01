@@ -1,7 +1,7 @@
 ### XKB geometry files for JIS keyboards
 Ubuntu Gnome 16.04上で作成した設定ファイルです. 日本でよく使われるJIS配列用のgeometryファイルが見当たらなかったため,自作しました.
 
-この設定ファイルを使用するには, ファイルをコピーし,```/etc/default/keyboard``` に下記の ```XKBMODEL=model-name``` を追加し,再起動します.
+この設定ファイルを使用するには, ファイルを```/usr/share/X11/xkb/```以下にコピーし,```/etc/default/keyboard``` に下記の ```XKBMODEL=model-name``` を追加し,再起動します.
 
 
 Configuration files that created on Ubuntu Gnome 16.04. Because I could not find the geometry file for JIS keyboards which is commonly used in Japan, I made it myself.
